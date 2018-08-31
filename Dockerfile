@@ -1,4 +1,4 @@
-FROM influxdb
+FROM influxdb:latest
 
 ENV CLIENT_HOME /var/lib/influx-client
 ENV SESSION_DIR $CLIENT_HOME/sessions
